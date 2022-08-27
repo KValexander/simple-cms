@@ -58,7 +58,7 @@ div.console > div.content p {
 	<div class="content">
 		<p>
 			<a href="/admin">Консоль</a> |
-			<a href="/">Главная страница</a> |
+			<a href="/">Страница</a> |
 			<a href="/admin/controllers/logout.php">Выйти</a>
 		</p>
 	</div>
