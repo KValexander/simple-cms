@@ -150,7 +150,6 @@ div.row {
 	display:  flex;
 	flex-wrap: wrap;
 	align-items: center;
-	flex-shrink: 0;
 	justify-content: space-between;
 }
 
@@ -167,7 +166,6 @@ div.row > div.col, div.wrap {
 div.table {
 	margin: 10px auto;
 	border-radius: 5px;
-	/*background-color: white;*/
 	border: solid 2px rgba(0,0,0,0.2);
 }
 
