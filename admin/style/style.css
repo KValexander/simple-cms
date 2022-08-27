@@ -150,6 +150,7 @@ div.row {
 	display:  flex;
 	flex-wrap: wrap;
 	align-items: center;
+	flex-shrink: 0;
 	justify-content: space-between;
 }
 
@@ -177,12 +178,18 @@ div.table a {
 div.table > div.item {
 	transition: .2s;
 	display: flex;
+	overflow: hidden;
 	padding: 15px 10px;
 	justify-content: space-between;
+	border-bottom: dashed 2px rgba(0,0,0,0.2);
 }
 
 div.table > div.item:first-child {
-	border-bottom: dashed 2px rgba(0,0,0,0.2);
+	border-bottom: solid 2px rgba(0,0,0,0.2);
+}
+
+div.table > div.item:last-child {
+	border-bottom: none;
 }
 
 div.table > div.item:hover:not(:first-child) {
@@ -196,6 +203,7 @@ div.table > div.item:not(:hover) {
 
 div.table > div.item > * {
 	width: 100%;
+	overflow: hidden;
 	text-align: center;
 }
 
